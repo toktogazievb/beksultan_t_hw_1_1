@@ -1,5 +1,3 @@
-import java.util.Random;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -15,9 +13,9 @@ public class Main {
 
         for (int i = 0; i < teams.length; i++) {
             System.out.println(teams[i]);
-            if((teams[i]instanceof Player)){
-               teams[i].goalScored(2);
-            }else{
+            if ((teams[i] instanceof Player)) {
+                teams[i].goalScored(2);
+            } else {
                 teams[i].goalScored();
             }
         }
